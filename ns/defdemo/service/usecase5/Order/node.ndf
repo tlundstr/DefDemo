@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">odataService</value>
+  <value name="node_subtype">unknown</value>
+  <value name="node_nsName">defdemo.service.usecase5:Order</value>
+  <value name="node_pkg">DefDemo</value>
+  <value name="is_public">false</value>
+  <null name="node_comment"/>
+  <record name="ODataSchema" javaclass="com.wm.util.Values">
+    <value name="Namespace">defdemo.service.usecase5:Order</value>
+    <value name="Alias"></value>
+    <value name="ODataVersion">v2</value>
+    <array name="EntityType" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="Name">Order</value>
+        <array name="Property" type="record" depth="1">
+          <record javaclass="com.wm.util.Values">
+            <value name="Name">ID</value>
+            <value name="Type">String</value>
+            <Boolean name="IsKey">false</Boolean>
+            <record name="PropertyFacets" javaclass="com.wm.util.Values">
+              <Boolean name="Nullable">true</Boolean>
+              <value name="Default"></value>
+              <value name="MaxLength">Max</value>
+              <Boolean name="FixedLength">false</Boolean>
+              <Boolean name="Unicode">true</Boolean>
+              <value name="Collation"></value>
+            </record>
+            <Boolean name="IsScalar">true</Boolean>
+          </record>
+        </array>
+        <array name="NavigationProperty" type="record" depth="1">
+        </array>
+      </record>
+    </array>
+    <array name="ComplexType" type="record" depth="1">
+    </array>
+    <array name="Association" type="record" depth="1">
+    </array>
+    <Boolean name="useCustomFilter">false</Boolean>
+  </record>
+  <value name="nsODataServiceNodeVersion">V1</value>
+  <Boolean name="useCustomFilter">false</Boolean>
+  <array name="nsODataServiceNodeReferences" type="record" depth="1">
+    <record javaclass="com.wm.util.Values">
+      <value name="entityTypeName">Order</value>
+      <array name="entityTypeReferences" type="record" depth="1">
+        <record javaclass="com.wm.util.Values">
+          <value name="etOperationType">GET</value>
+          <value name="etServiceName">defdemo.service.usecase5._Order.Order:_retrieve</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="etOperationType">PUT</value>
+          <value name="etServiceName">defdemo.service.usecase5._Order.Order:_update</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="etOperationType">DELETE</value>
+          <value name="etServiceName">defdemo.service.usecase5._Order.Order:_delete</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="etOperationType">POST</value>
+          <value name="etServiceName">defdemo.service.usecase5._Order.Order:_insert</value>
+        </record>
+      </array>
+    </record>
+  </array>
+</Values>
