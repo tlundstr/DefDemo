@@ -6,11 +6,11 @@
   <!-- nodes -->
 
 <INVOKE TIMEOUT="" SERVICE="defdemo.service.usecase7.service:getSourceFLSOrder" VALIDATE-IN="$none" VALIDATE-OUT="$none">
-  <COMMENT></COMMENT>
+  <COMMENT>get the File and convert to doc type</COMMENT>
 </INVOKE>
 
 <INVOKE TIMEOUT="" SERVICE="defdemo.service.usecase7.service:mapFLStoCDM" VALIDATE-IN="$none" VALIDATE-OUT="$none">
-  <COMMENT></COMMENT>
+  <COMMENT>Maps CDM</COMMENT>
 
   <!-- nodes -->
 
@@ -45,7 +45,7 @@
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
-        <value name="node_comment"></value>
+        <value name="node_comment">Input which transformation to run</value>
         <record name="node_hints" javaclass="com.wm.util.Values">
           <value name="field_usereditable">false</value>
           <value name="field_largerEditor">false</value>

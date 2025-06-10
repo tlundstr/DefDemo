@@ -25,7 +25,7 @@
         <record javaclass="com.wm.util.Values">
           <value name="node_type">record</value>
           <value name="node_subtype">unknown</value>
-          <value name="node_comment"></value>
+          <value name="node_comment">Input which transformation to run</value>
           <record name="node_hints" javaclass="com.wm.util.Values">
             <value name="field_usereditable">false</value>
             <value name="field_largerEditor">false</value>
@@ -68,7 +68,7 @@
       <value name="modifiable">true</value>
     </record>
   </record>
-  <value name="node_comment"></value>
+  <value name="node_comment">Service to test the transformation, reads file from c:\dev</value>
   <value name="stateless">yes</value>
   <value name="caching">no</value>
   <value name="prefetch">no</value>
