@@ -51,12 +51,13 @@
             <value name="field_password">false</value>
           </record>
           <value name="is_public">false</value>
-          <value name="field_name">useXSLT</value>
+          <value name="field_name">use</value>
           <value name="field_type">string</value>
           <value name="field_dim">0</value>
           <array name="field_options" type="value" depth="1">
-            <value>true</value>
-            <value>false</value>
+            <value>map</value>
+            <value>xslt</value>
+            <value>java</value>
           </array>
           <value name="nillable">true</value>
           <value name="form_qualified">false</value>

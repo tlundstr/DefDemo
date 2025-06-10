@@ -185,12 +185,13 @@
           <value name="field_password">false</value>
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">useXSLT</value>
+        <value name="field_name">use</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
         <array name="field_options" type="value" depth="1">
-          <value>true</value>
-          <value>false</value>
+          <value>map</value>
+          <value>xslt</value>
+          <value>java</value>
         </array>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
@@ -276,12 +277,13 @@
           <value name="field_password">false</value>
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">useXSLT</value>
+        <value name="field_name">use</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
         <array name="field_options" type="value" depth="1">
-          <value>true</value>
-          <value>false</value>
+          <value>map</value>
+          <value>xslt</value>
+          <value>java</value>
         </array>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
@@ -721,12 +723,13 @@
           <value name="field_password">false</value>
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">useXSLT</value>
+        <value name="field_name">use</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
         <array name="field_options" type="value" depth="1">
-          <value>true</value>
-          <value>false</value>
+          <value>map</value>
+          <value>xslt</value>
+          <value>java</value>
         </array>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
@@ -837,7 +840,7 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">defdemo.service.usecase7.doc:flsOrderCompletion</value>
+        <value name="rec_ref">defdemo.doc.usecase7.doc:flsOrderCompletion</value>
       </record>
     </array>
     <value name="modifiable">true</value>
@@ -889,7 +892,7 @@
 <MAPDELETE FIELD="/makeArrays;1;0">
 </MAPDELETE>
 
-<MAPCOPY FROM="/document;2;0" TO="/flsorder;4;0;defdemo.service.usecase7.doc:flsOrderCompletion">
+<MAPCOPY FROM="/document;2;0" TO="/flsorder;4;0;defdemo.doc.usecase7.doc:flsOrderCompletion">
 </MAPCOPY>
 
 <MAPDELETE FIELD="/nsDecls;2;0">
@@ -950,7 +953,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">defdemo.service.usecase7.doc:flsOrderCompletion</value>
+        <value name="rec_ref">defdemo.doc.usecase7.doc:flsOrderCompletion</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -962,12 +965,13 @@
           <value name="field_password">false</value>
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">useXSLT</value>
+        <value name="field_name">use</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
         <array name="field_options" type="value" depth="1">
-          <value>true</value>
-          <value>false</value>
+          <value>map</value>
+          <value>xslt</value>
+          <value>java</value>
         </array>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
@@ -1001,12 +1005,13 @@
           <value name="field_password">false</value>
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">useXSLT</value>
+        <value name="field_name">use</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
         <array name="field_options" type="value" depth="1">
-          <value>true</value>
-          <value>false</value>
+          <value>map</value>
+          <value>xslt</value>
+          <value>java</value>
         </array>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
@@ -1023,7 +1028,7 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">defdemo.service.usecase7.doc:flsOrderCompletion</value>
+        <value name="rec_ref">defdemo.doc.usecase7.doc:flsOrderCompletion</value>
       </record>
     </array>
     <value name="modifiable">true</value>
@@ -1033,7 +1038,7 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/flsorder;4;0;defdemo.service.usecase7.doc:flsOrderCompletion" TO="/flsorder;4;0;defdemo.service.usecase7.doc:flsOrderCompletion">
+<MAPCOPY FROM="/flsorder;4;0;defdemo.doc.usecase7.doc:flsOrderCompletion" TO="/flsorder;4;0;defdemo.doc.usecase7.doc:flsOrderCompletion">
 </MAPCOPY>
 </MAP>
 
@@ -1052,22 +1057,12 @@
     <value name="is_global">false</value>
     <array name="rec_fields" type="record" depth="1">
       <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
+        <value name="node_type">unknown</value>
         <value name="node_subtype">unknown</value>
-        <value name="node_comment"></value>
-        <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="field_usereditable">false</value>
-          <value name="field_largerEditor">false</value>
-          <value name="field_password">false</value>
-        </record>
         <value name="is_public">false</value>
         <value name="field_name">useXSLT</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
-        <array name="field_options" type="value" depth="1">
-          <value>true</value>
-          <value>false</value>
-        </array>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
@@ -1089,6 +1084,28 @@
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_usereditable">false</value>
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">use</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <array name="field_options" type="value" depth="1">
+          <value>map</value>
+          <value>xslt</value>
+          <value>java</value>
+        </array>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
         <value name="field_name">flsorder</value>
         <value name="field_type">recref</value>
@@ -1097,7 +1114,7 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">defdemo.service.usecase7.doc:flsOrderCompletion</value>
+        <value name="rec_ref">defdemo.doc.usecase7.doc:flsOrderCompletion</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -1158,7 +1175,7 @@
 <MAPDELETE FIELD="/useXSLT;1;0">
 </MAPDELETE>
 
-<MAPDELETE FIELD="/flsorder;4;0;defdemo.service.usecase7.doc:flsOrderCompletion">
+<MAPDELETE FIELD="/flsorder;4;0;defdemo.doc.usecase7.doc:flsOrderCompletion">
 </MAPDELETE>
 </MAP>
 </INVOKE>
@@ -1414,6 +1431,28 @@
         <value name="node_subtype">unknown</value>
         <value name="node_comment"></value>
         <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_usereditable">false</value>
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">use</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <array name="field_options" type="value" depth="1">
+          <value>map</value>
+          <value>xslt</value>
+          <value>java</value>
+        </array>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
           <value name="field_largerEditor">false</value>
           <value name="field_password">false</value>
         </record>
@@ -1466,27 +1505,29 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">defdemo.service.usecase7.doc:flsOrderCompletion</value>
+        <value name="rec_ref">defdemo.doc.usecase7.doc:flsOrderCompletion</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="node_comment"></value>
         <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_usereditable">false</value>
           <value name="field_largerEditor">false</value>
           <value name="field_password">false</value>
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">cdmworkorder</value>
-        <value name="field_type">recref</value>
+        <value name="field_name">use</value>
+        <value name="field_type">string</value>
         <value name="field_dim">0</value>
-        <value name="wrapper_type">IData</value>
+        <array name="field_options" type="value" depth="1">
+          <value>map</value>
+          <value>xslt</value>
+          <value>java</value>
+        </array>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
-        <value name="rec_closed">true</value>
-        <value name="modifiable">true</value>
-        <value name="rec_ref">defdemo.doc.usecase7.doc:cdmWorkOrder</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -1512,6 +1553,26 @@
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">cdmworkorder</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="wrapper_type">IData</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">defdemo.doc.usecase7.doc:cdmWorkOrder</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">field</value>
@@ -1571,7 +1632,7 @@
 <MAPDELETE FIELD="/xmldata;1;0">
 </MAPDELETE>
 
-<MAPDELETE FIELD="/flsorder;4;0;defdemo.service.usecase7.doc:flsOrderCompletion">
+<MAPDELETE FIELD="/flsorder;4;0;defdemo.doc.usecase7.doc:flsOrderCompletion">
 </MAPDELETE>
 
 <MAPDELETE FIELD="/cdmworkorder;4;0;defdemo.doc.usecase7.doc:cdmWorkOrder">
@@ -1713,6 +1774,28 @@
         <value name="field_name">message</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_usereditable">false</value>
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">use</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <array name="field_options" type="value" depth="1">
+          <value>map</value>
+          <value>xslt</value>
+          <value>java</value>
+        </array>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
