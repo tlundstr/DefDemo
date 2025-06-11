@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="name">strHouseNoTokenizer</value>
+  <value name="encodeutf8">true</value>
+  <value name="body">Ly8gcGlwZWxpbmUNCklEYXRhQ3Vyc29yIHBpcGVsaW5lQ3Vyc29yID0gcGlwZWxpbmUuZ2V0Q3Vy
+c29yKCk7DQpTdHJpbmcJU0FQX1N0cmVldCA9IElEYXRhVXRpbC5nZXRTdHJpbmcoIHBpcGVsaW5l
+Q3Vyc29yLCAiU0FQX1N0cmVldCIgKTsNCg0KU3RyaW5nW10gYWRyID0gU0FQX1N0cmVldC5zcGxp
+dCggIihcXHMpKyIpOw0KDQpTdHJpbmcgc3RyPSAiIjsNClN0cmluZyBob3VzZU5vID0gIiI7DQoN
+CmZvciggaW50IGkgPSAwOyBpPGFkci5sZW5ndGg7IGkrKyl7DQoJaWYoIChpPjApICYmICgoaSsx
+KSA8IGFkci5sZW5ndGgpKXsNCgkJc3RyICs9ICIgIjsNCgl9DQoJaWYoICgoaSsxKSA8IGFkci5s
+ZW5ndGgpKXsNCgkJc3RyICs9IGFkcltpXTsNCgkJfQ0KCWVsc2V7DQoJCWhvdXNlTm8gPSBhZHJb
+aV07DQoJfQ0KfQ0KDQpJRGF0YVV0aWwucHV0KCBwaXBlbGluZUN1cnNvciwgIlN0cmVldCIsIHN0
+cik7DQpJRGF0YVV0aWwucHV0KCBwaXBlbGluZUN1cnNvciwgIkhvdXNlTm8iLGhvdXNlTm8pOw0K
+cGlwZWxpbmVDdXJzb3IuZGVzdHJveSgpOw0KCQ==</value>
+</Values>
