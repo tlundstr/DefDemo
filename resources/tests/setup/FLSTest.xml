@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="Auto Generated from Template" name="TS_FLSTest.xml">
+    <webMethodsTestCase description="Generate a Test Wizard" name="TC_testService">
+        <service folder="defdemo.service.usecase7.service" name="testService">
+            <input>
+                <file filename="resources/tests/data/defdemo_service_usecase7_service_testService_input.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/tests/data/defdemo_service_usecase7_service_testService_output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase description="Generate a Test Wizard" name="TC_testService">
+        <service folder="defdemo.service.usecase7.service" name="testService">
+            <input>
+                <file filename="resources/tests/data/defdemo_service_usecase7_service_testService_input.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/tests/data/defdemo_service_usecase7_service_testService_output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>
