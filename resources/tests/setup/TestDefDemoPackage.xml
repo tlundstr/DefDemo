@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="Test the service MapFLStoCMD" name="TS_TestMapFLStoCDM.xml">
+    <webMethodsTestCase description="Test mapFLStoCDM using Flow" name="TC_mapFLStoCDMusingFlow">
+        <service folder="defdemo.service.usecase7.service" name="mapFLStoCDM">
+            <input>
+                <file filename="resources/tests/data/mapFLStoCDM_flow_input.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/tests/data/mapFLStoCDM_output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase description="Test mapFLStoCDM using Java" name="TC_mapFLStoCDMusingJava">
+        <service folder="defdemo.service.usecase7.service" name="mapFLStoCDM">
+            <input>
+                <file filename="resources/tests/data/mapFLStoCDM_java_input.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/tests/data/mapFLStoCDM_output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase description="Test mapFLStoCDM using XSLT" name="TC_mapFLStoCDMusingXSLT">
+        <service folder="defdemo.service.usecase7.service" name="mapFLStoCDM">
+            <input>
+                <file filename="resources/tests/data/mapFLStoCDM_xslt_input.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/tests/data/mapFLStoCDM_output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>
