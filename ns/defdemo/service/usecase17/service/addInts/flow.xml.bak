@@ -286,6 +286,10 @@
 </MAP>
 </INVOKE>
 
+<INVOKE TIMEOUT="" SERVICE="defdemo.service.usecase17.service:logError" VALIDATE-IN="$none" VALIDATE-OUT="$none">
+  <COMMENT></COMMENT>
+</INVOKE>
+
 <EXIT FROM="$flow" SIGNAL="FAILURE" FAILURE-MESSAGE="Nu gick det fel">
   <COMMENT></COMMENT>
 </EXIT>
