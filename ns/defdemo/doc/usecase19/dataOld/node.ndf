@@ -4,7 +4,7 @@
   <record name="record" javaclass="com.wm.util.Values">
     <value name="node_type">record</value>
     <value name="node_subtype">unknown</value>
-    <value name="node_nsName">defdemo.service.usecase19.docs:data</value>
+    <value name="node_nsName">defdemo.doc.usecase19:dataOld</value>
     <value name="node_pkg">DefDemo</value>
     <value name="node_comment"></value>
     <value name="is_public">false</value>
@@ -20,7 +20,7 @@
     <value name="nillable">true</value>
     <value name="form_qualified">false</value>
     <value name="is_global">false</value>
-    <number name="nanostamp" type="Long">1738931237103200</number>
+    <number name="nanostamp" type="Long">1904314280429200</number>
     <array name="rec_fields" type="record" depth="1">
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -73,13 +73,12 @@
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
-        <number name="protobufKey" type="Integer">536870910</number>
         <value name="modifiable">true</value>
         <value name="rec_ref">pub.publish:envelope</value>
       </record>
     </array>
     <record name="eventDescription" javaclass="com.wm.util.Values">
-      <value name="brokerEventTypeName">wm::is::defdemo::service::usecase19::docs::data</value>
+      <value name="brokerEventTypeName">wm::is::defdemo::doc::usecase19::dataOld</value>
       <value name="timeToLive">0</value>
       <value name="storageType">guaranteed</value>
       <value name="clientValidation">true</value>

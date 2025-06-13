@@ -69,7 +69,7 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">defdemo.service.usecase19.docs:data</value>
+        <value name="rec_ref">defdemo.doc.usecase19:data</value>
       </record>
     </array>
     <value name="modifiable">true</value>
@@ -135,10 +135,10 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/input1;1;0" TO="/data;4;0;defdemo.service.usecase19.docs:data/input1;1;0">
+<MAPCOPY FROM="/input1;1;0" TO="/data;4;0;defdemo.doc.usecase19:data/input1;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/input2;1;0" TO="/data;4;0;defdemo.service.usecase19.docs:data/input2;1;0">
+<MAPCOPY FROM="/input2;1;0" TO="/data;4;0;defdemo.doc.usecase19:data/input2;1;0">
 </MAPCOPY>
 </MAP>
 
@@ -286,7 +286,7 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">defdemo.service.usecase19.docs:data</value>
+        <value name="rec_ref">defdemo.doc.usecase19:data</value>
       </record>
     </array>
     <value name="modifiable">true</value>
@@ -296,14 +296,14 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/data;4;0;defdemo.service.usecase19.docs:data" TO="/document;2;0">
+<MAPCOPY FROM="/data;4;0;defdemo.doc.usecase19:data" TO="/document;2;0">
 </MAPCOPY>
 
 <MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/documentTypeName;1;0">
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">defdemo.service.usecase19.docs:data</value>
+  <value name="xml">defdemo.doc.usecase19:data</value>
   <record name="type" javaclass="com.wm.util.Values">
     <value name="node_type">field</value>
     <value name="node_subtype">unknown</value>
@@ -408,7 +408,7 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">defdemo.service.usecase19.docs:data</value>
+        <value name="rec_ref">defdemo.doc.usecase19:data</value>
       </record>
     </array>
     <value name="modifiable">true</value>
@@ -436,7 +436,7 @@
 
   <!-- nodes -->
 
-<MAPDELETE FIELD="/data;4;0;defdemo.service.usecase19.docs:data">
+<MAPDELETE FIELD="/data;4;0;defdemo.doc.usecase19:data">
 </MAPDELETE>
 
 <MAPDELETE FIELD="/documentTypeName;1;0">

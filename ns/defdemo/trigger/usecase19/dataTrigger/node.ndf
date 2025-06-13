@@ -3,7 +3,7 @@
 <Values version="2.0">
   <value name="node_type">webMethods/trigger</value>
   <value name="node_subtype">unknown</value>
-  <value name="node_nsName">defdemo.service.usecase19.trigger:dataTrigger</value>
+  <value name="node_nsName">defdemo.trigger.usecase19:dataTrigger</value>
   <value name="node_pkg">DefDemo</value>
   <value name="node_comment"></value>
   <value name="is_public">false</value>
@@ -32,14 +32,14 @@
     <value name="inDoubtDetection">false</value>
     <value name="resolveWithHistory">false</value>
     <value name="resolutionHistoryTTL">7200000</value>
-    <value name="uniqueId">buElZmgThbpKLD/3P8togxrpusQ=</value>
+    <value name="uniqueId">oxBSNgQIiv/ezJxk02WSyTanvr4=</value>
     <value name="executeUser">Administrator</value>
     <array name="conditions" type="record" depth="1">
       <record javaclass="com.wm.util.Values">
         <value name="type">simple</value>
         <record name="data" javaclass="com.wm.util.Values">
           <record name="messageTypeFilterPair" javaclass="com.wm.util.Values">
-            <value name="messageType">defdemo.service.usecase19.docs:data</value>
+            <value name="messageType">defdemo.doc.usecase19:data</value>
             <value name="filter"></value>
           </record>
           <value name="serviceName">defdemo.service.usecase19.service:processData</value>

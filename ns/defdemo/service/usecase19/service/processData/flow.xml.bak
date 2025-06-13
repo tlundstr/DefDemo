@@ -29,7 +29,7 @@
           <value name="field_password">false</value>
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">defdemo.service.usecase19.docs:data</value>
+        <value name="field_name">defdemo.doc.usecase19:data</value>
         <value name="field_type">recref</value>
         <value name="field_dim">0</value>
         <value name="wrapper_type">IData</value>
@@ -38,7 +38,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">defdemo.service.usecase19.docs:data</value>
+        <value name="rec_ref">defdemo.doc.usecase19:data</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -51,7 +51,7 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">defdemo.service.usecase19.docs:data</value>
+        <value name="rec_ref">defdemo.doc.usecase19:data</value>
       </record>
     </array>
     <value name="modifiable">true</value>
@@ -80,7 +80,7 @@
           <value name="field_password">false</value>
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">defdemo.service.usecase19.docs:data</value>
+        <value name="field_name">defdemo.doc.usecase19:data</value>
         <value name="field_type">recref</value>
         <value name="field_dim">0</value>
         <value name="wrapper_type">IData</value>
@@ -89,7 +89,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">defdemo.service.usecase19.docs:data</value>
+        <value name="rec_ref">defdemo.doc.usecase19:data</value>
       </record>
     </array>
     <value name="modifiable">true</value>
@@ -99,7 +99,7 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/defdemo.service.usecase19.docs:data;4;0;defdemo.service.usecase19.docs:data" TO="/data;4;0;defdemo.service.usecase19.docs:data">
+<MAPCOPY FROM="/defdemo.doc.usecase19:data;4;0;defdemo.doc.usecase19:data" TO="/data;4;0;defdemo.doc.usecase19:data">
 </MAPCOPY>
 </MAP>
 
@@ -214,6 +214,9 @@
 </Values>
 </DATA>
 </MAPSET>
+</MAP>
+
+<MAP MODE="OUTPUT">
 </MAP>
 </INVOKE>
 </FLOW>
